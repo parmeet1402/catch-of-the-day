@@ -1,1 +1,6 @@
-// let's go!
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Router from "./components/Router";
+import "./css/style.css";
+
+ReactDOM.render(<Router />, document.querySelector("#main"));
